@@ -15,15 +15,16 @@
   width: 100%;
   height: 538px;
   justify-content: center;
-  background: url(../img/main-body-image.jpg);
+  background-image: url(../img/main-body-image.jpg);
   background-position: 0 580px;
   background-size: 100%;
+  cursor: pointer;
 }
 
 .ul-1 {
   display: flex;
   margin-top: 75px;
-  background: url(../img/nav-bar-image.png);
+  background-image: url(../img/nav-bar-image.png);
   list-style: none;
   width: 980px;
   height: 36px;
@@ -78,7 +79,13 @@
 
 .thumbnails a {
   display: flex;
-  width: 25%;
+  width: 1349px;
+  height: 200px;
+}
+
+.thumbnails img {
+  display: flex;
+  width: 100%;
   height: 200px;
 }
 
