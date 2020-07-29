@@ -15,15 +15,15 @@
   width: 100%;
   height: 538px;
   justify-content: center;
+  background: url(images/main-body-image.jpg);
   background-position: 0 580px;
   background-size: 100%;
-  background-image: url(/images/main-body-image.jpg);
 }
 
 .ul-1 {
   display: flex;
   margin-top: 75px;
-  background-image: url(/images/nav-bar-image.png);
+  background: url(images/nav-bar-image.png);
   list-style: none;
   width: 980px;
   height: 36px;
