@@ -2,7 +2,7 @@
 
 This project consists of building an HTML and CSS document that matches the appearance of the old Apple webpage. the main objective of this project is to get the knowledge of how to put backgroud image and gradient on a web page.
 
-![screenshot](/screenshot.png)
+![screenshot](./screenshot.png)
 
 ## Built With
 
