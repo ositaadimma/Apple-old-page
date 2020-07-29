@@ -63,6 +63,27 @@
   height: 200px;
 }
 
+.body-text {
+    position: absolute;
+    margin: 180px 40px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid red;
+}
+
+#body-text-p1  {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+#body-text-p2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
 /*
     ========================================
     Foooter
