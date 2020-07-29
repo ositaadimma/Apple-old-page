@@ -15,38 +15,58 @@
   width: 100%;
   height: 538px;
   justify-content: center;
-}
-
-.main-body {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 538px;
   background-position: 0 580px;
   background-size: 100%;
   background-image: url(/images/main-body-image.jpg);
-}
-
-.nav-bar {
-  display: flex;
-  width: 95%;
 }
 
 .ul-1 {
   display: flex;
   margin-top: 75px;
   background-image: url(/images/nav-bar-image.png);
-  width: 100%;
+  list-style: none;
+  width: 980px;
   height: 36px;
   border-radius: 5px;
   align-items: center;
 }
 
 .ul-1 li {
-  color: white;
-  display: inline;
   padding: 0 10px;
   text-decoration: none;
+  width: 100px;
+}
+
+.ul-1 a {
+  height: 36px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 12px;
+  border-right: 1px solid rgb(82, 82, 82);
+  color: white;
+  text-decoration: none;
+}
+
+.fab {
+  font-size: 24px;
+  color: rgb(214, 214, 214);
+}
+
+.fas {
+  color: white;
+  position: relative;
+  right: 50px;
+}
+
+.search-input {
+  width: 106px;
+  height: 23px;
+  background-color: transparent;
+  margin-left: 30px;
+  border-radius: 10px;
 }
 
 .thumbnails {
@@ -54,7 +74,6 @@
   justify-content: center;
   width: 100%;
   height: 200px;
-  background-color: hsl(0, 0%, 93%);
 }
 
 .thumbnails img {
@@ -64,24 +83,23 @@
 }
 
 .body-text {
-    position: absolute;
-    margin: 180px 40px;
-    text-align: center;
-    color: white;
-    font-weight: lighter;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 1px solid red;
+  position: absolute;
+  margin: 180px 40px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#body-text-p1  {
-    font-size: 40px;
-    margin: 20px 0;
+#body-text-p1 {
+  font-size: 40px;
+  margin: 20px 0;
 }
 
 #body-text-p2 {
-    font-size: 24px;
-    margin: 20px 0;
+  font-size: 24px;
+  margin: 20px 0;
 }
 
 /*
