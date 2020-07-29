@@ -1,22 +1,27 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
 }
+
+/*
+    ========================================
+    Main
+    ========================================
+  */
 
 .main {
   display: flex;
-  background-color: hsl(0, 0%, 93%);
   width: 100%;
   height: 65%;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .main-body {
   display: flex;
   justify-content: center;
-  width: 74%;
-  height: 500px;
+  width: 100%;
+  height: 538px;
   background-image: url(/images/main-body-image.jpg);
-  background-position: -205px 530px;
   border: 1px solid blue;
 }
 
@@ -39,7 +44,7 @@ body {
 .ul-1 li {
   color: white;
   display: inline;
-  padding: 0px 10px;
+  padding: 0 10px;
   text-decoration: none;
 }
 
@@ -53,14 +58,67 @@ body {
 
 .thumbnails img {
   display: flex;
-  width: 18.5%;
+  width: 25%;
   height: 200px;
 }
 
+/*
+    ========================================
+    Foooter
+    ========================================
+  */
+
 .main-footer {
   display: flex;
-  margin: 0px 22px 0px 22px;
-  border: 1px solid brown;
-  width: 96%;
-  height: 100px;
+  margin: auto;
+  width: 1000px;
+  height: 90px;
+  flex-wrap: wrap;
+}
+
+.footer-1 {
+  display: flex;
+  width: 480px;
+  height: 27px;
+  font-size: 11px;
+  line-height: 12px;
+  color: hsl(0, 0%, 43%);
+  align-items: flex-end;
+}
+
+.footer-2 {
+  display: flex;
+  width: 480px;
+  height: 27px;
+  font-size: 11px;
+  color: hsl(0, 0%, 43%);
+  align-items: flex-end;
+}
+
+.ul-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 510px;
+  height: 27px;
+  font-size: 11px;
+  color: hsl(200, 100%, 40%);
+}
+
+.ul-2 li {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  margin: 1px;
+  padding-right: 4px;
+}
+
+.img-foooter {
+  width: 20px;
+  height: 20px;
+}
+
+.main-footer a {
+  padding: 0 4px;
+  color: hsl(200, 100%, 40%);
+  text-decoration: none;
 }
