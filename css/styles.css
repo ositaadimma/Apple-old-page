@@ -108,7 +108,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#body-text-p1 {
+.body-text-p1 {
   font-size: 40px;
   margin: 20px 0;
 }
@@ -119,13 +119,13 @@
   text-decoration: none;
 }
 
-#body-text-p2 {
+.body-text-p2 {
   font-size: 24px;
   margin: 20px 0;
   cursor: pointer;
 }
 
-#body-text-p2 a {
+.body-text-p2 a {
   margin-left: 55px;
   text-decoration: none;
   color: white;
