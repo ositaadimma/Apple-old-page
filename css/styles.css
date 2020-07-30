@@ -17,6 +17,7 @@
   justify-content: center;
   background-image: url(../img/main-body-image.jpg);
   background-position: 0 580px;
+  background-repeat: none;
   background-size: 100%;
   cursor: pointer;
 }
@@ -150,6 +151,7 @@
   line-height: 12px;
   color: hsl(0, 0%, 43%);
   align-items: flex-end;
+  margin-bottom: -2px;
 }
 
 .footer-2 {
@@ -159,6 +161,7 @@
   font-size: 11px;
   color: hsl(0, 0%, 43%);
   align-items: flex-end;
+  margin-top: -40px;
 }
 
 .ul-2 {
