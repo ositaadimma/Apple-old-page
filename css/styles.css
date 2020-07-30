@@ -24,7 +24,7 @@
 .ul-1 {
   display: flex;
   margin-top: 75px;
-  background-image: url(../img/nav-bar-image.png);
+  background: linear-gradient(rgb(116, 116, 116) 50%, rgb(107, 107, 107) 50%);
   list-style: none;
   width: 980px;
   height: 36px;
