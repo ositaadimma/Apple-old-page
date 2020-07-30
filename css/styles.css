@@ -38,8 +38,16 @@
   width: 100px;
 }
 
+.ul-2 li {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  margin: 1px;
+  list-style: none;
+}
+
 .ul-1 li:hover {
-  opacity: 40%;
+  opacity: 40;
 }
 
 .ul-1 a {
@@ -113,14 +121,6 @@
   padding: 0 4px;
   color: hsl(200, 100%, 40%);
   text-decoration: none;
-}
-
-.ul-2 li {
-  display: flex;
-  align-items: flex-end;
-  text-decoration: none;
-  margin: 1px;
-  list-style: none;
 }
 
 #body-text-p2 {
