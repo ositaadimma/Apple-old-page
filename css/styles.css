@@ -18,7 +18,7 @@
   background-image: url(../img/main-body-image.jpg);
   background-repeat: no-repeat;
 /* 
-background-size: 100%;
+    background-size: 100%;
 */
   background-size: cover;
   cursor: pointer;
@@ -137,7 +137,6 @@ background-size: 100%;
 /*
 ========================================
     Foooter
-    
 ========================================
 */
 
