@@ -2,6 +2,8 @@
 
 This project consists of building an HTML and CSS document that matches the appearance of the old Apple webpage. the main objective of this project is to get the knowledge of how to put backgroud image and gradient on a web page.
 
+https://rawcdn.githack.com/ositaadimma/Apple-old-page/b319009b7196d7bdc7beb7777f38a6a26b4ce0c0/index.html
+
 ![screenshot](./screenshot.png)
 
 ## Built With
