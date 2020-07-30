@@ -5,10 +5,12 @@
 }
 
   /*
+
     ========================================
     Main
     ========================================
-  */
+  
+    */
 
 .main {
   display: flex;
@@ -17,7 +19,11 @@
   justify-content: center;
   background-image: url(../img/main-body-image.jpg);
   background-repeat: no-repeat;
-  /* background-size: 100%; */
+  /* 
+
+  background-size: 100%;
+  
+  */
   background-size: cover;
   cursor: pointer;
 }
@@ -133,8 +139,10 @@
 }
 
   /*
+
     ========================================
     Foooter
+    
     ========================================
   */
 
