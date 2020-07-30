@@ -46,10 +46,6 @@
   list-style: none;
 }
 
-.ul-1 li:hover {
-  opacity: 40;
-}
-
 .ul-1 a {
   height: 36px;
   width: 100px;
